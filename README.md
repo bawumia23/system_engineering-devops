@@ -1,0 +1,9 @@
+system_engineering-devopsThis repository serves as a collection of projects and exercises completed as part of my journey in system engineering and DevOps. It primarily focuses on foundational concepts using shell scripting in a Linux environment.Each directory within this repository represents a distinct project or module, covering specific topics.Project Directories:0x00-shell_basicsDescription: This directory contains foundational exercises related to basic shell commands. It covers topics such as navigating the filesystem, listing directory contents, and understanding absolute/relative paths.Key Concepts: pwd, ls, cd, man pages.0x01-shell_permissionsDescription: This project delves into file and directory permissions in Linux. Exercises here explore changing ownership, groups, and setting various permission modes for files and directories.Key Concepts: chmod, chown, chgrp, user/group/other permissions (symbolic and octal modes).0x02-shell_redirectionsDescription: This section focuses on input/output (I/O) redirection and piping in the shell. It includes tasks involving redirecting standard output, standard error, and standard input, as well as combining commands with pipes.Key Concepts: stdin, stdout, stderr, >, >>, <, |, cat, grep, sort, uniq, head, tail.How to Use This Repository:To explore these projects:Clone the repository:git clone https://github.com/bawumia23/system_engineering-devops.git
+Navigate to a specific project directory:cd system_engineering-devops/0x00-shell_basics
+# Or:
+cd system_engineering-devops/0x01-shell_permissions
+# Or:
+cd system_engineering-devops/0x02-shell_redirections
+Make scripts executable (if needed):chmod +x your_script_name
+Run a script:./your_script_name
+Author: Tajudeen (bawumia23)Feel free to explore the code and the concepts within each directory!
