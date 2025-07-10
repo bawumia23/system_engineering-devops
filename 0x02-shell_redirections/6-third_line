@@ -1,8 +1,4 @@
 #!/bin/bash
-
-# Use 'head -n 3' to get the first three lines of the file.
-# Then, pipe the output to 'tail -n 1' to get only the last line from that output,
-# which corresponds to the third line of the original file.
 head -n 3 iacta | tail -n 1
 
 
