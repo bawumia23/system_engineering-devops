@@ -1,4 +1,2 @@
-#!/bin/bash
-# This script displays a confused smiley.
-
+#!/usr/bin/env bash
 echo "(Ôo)'"
