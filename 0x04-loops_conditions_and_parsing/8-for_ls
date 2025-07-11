@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+for file in *; do
+    # Skip hidden files
+    if [[ "$file" == .* ]]; then
+        continue
+    fi
+    # Print everything after first dash
+    echo "${file#*-}"
+done
