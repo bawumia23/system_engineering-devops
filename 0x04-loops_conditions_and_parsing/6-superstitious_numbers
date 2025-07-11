@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+# This script displays numbers with superstitious messages at specific iterations
 count=1
 while [ "$count" -le 20 ]; do
     case $count in
