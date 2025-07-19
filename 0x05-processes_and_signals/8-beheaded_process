@@ -1,8 +1,4 @@
 #!/usr/bin/env bash
-# A Bash script that kills all 7-highlander processes using the SIGKILL signal.
+# Kills 7-highlander.
 
-# Find the PIDs of all 7-highlander processes.
-# Use -f to search the full command line.
-# Use grep -v "$$" to exclude the pgrep process itself.
-# Use xargs to pass each PID as an argument to kill -9.
-pgrep -f "7-highlander" | grep -v "$$" | xargs -r kill -9
+pkill -f -SIGKILL 7-highlander

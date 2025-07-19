@@ -1,7 +1,8 @@
 #!/usr/bin/env bash
-# This script displays "Best School" 10 times using a while loop
-count=1
-while [ "$count" -le 10 ]; do
-    echo "Best School"
-    count=$((count + 1))
+#print "Best School" 10 timwes
+
+printed=0;
+while [ "$printed" -lt 10 ]; do
+    echo "Best School";
+    printed=$((printed + 1));
 done

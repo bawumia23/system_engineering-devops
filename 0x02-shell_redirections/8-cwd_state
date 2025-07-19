@@ -1,2 +1,2 @@
 #!/bin/bash
-echo -e "..\nfile1\nfile2\nfile3\nls_cwd_content" > ls_cwd_content
+ls -la > ls_cwd_content

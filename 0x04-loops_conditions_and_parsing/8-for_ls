@@ -1,10 +1,8 @@
 #!/usr/bin/env bash
-# This script displays filenames after the first dash
-for file in *; do
-    # Skip hidden files
-    if [[ "$file" == .* ]]; then
-        continue
-    fi
-    # Print everything after first dash
-    echo "${file#*-}"
+# Displays the current directory in list format
+#   Only displays part of the name after first dash 
+
+list=$(ls)
+for i in $list; do
+  echo "$i" | cut -d '-' -f2
 done
